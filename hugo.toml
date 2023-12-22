@@ -1,0 +1,16 @@
+baseURL = 'https://zhouzihui123.github.io/'
+languageCode = 'en-us'
+theme = 'ananke'
+title = '新闻合集'
+
+
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+canonifyurls = true
+
+hasCJKLanguage = true
+summaryLength = 30
