@@ -22,3 +22,7 @@ pre {
   hyphens: none;
   position: relative;
 }
+
+p {
+text-indent: 40px;
+}
